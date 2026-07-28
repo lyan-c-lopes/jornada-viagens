@@ -1,7 +1,3 @@
-.categories .section-tittle {
-  width: 312px;
-  margin: 0 auto;
-}
 .cards-categories {
   display: flex;
   flex-direction: column;
