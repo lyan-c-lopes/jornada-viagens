@@ -18,11 +18,7 @@
   color: var(--text-primary-color);
 }
 
-.cards-categories .card h3 {
-  font-size: 28px;
-  font-weight: var(--tittle-weight);
-  
-}
+
 
 .cards-categories .card.single-line {
   padding: 50px;
