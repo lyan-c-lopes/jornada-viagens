@@ -1,7 +1,17 @@
-.hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img {
   height: 400px;
   width: 100%;
+}
+
+.hero .hero-img {
   background-image: url(../img/hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom-hero .hero-img {
+  background-image: url(../img/footer-img-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,9 +26,15 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
     background-image: url(../img/hero-tablet.jpg);
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img {
+    height: 400px;
+    background-image: url(../img/footer-img-tablet.jpg);
     background-size: cover;
   }
 
@@ -29,8 +45,14 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
+  .hero .hero-img {
     background-image: url(../img/hero-desktop.jpg);
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img {
+    height: 600px;
+    background-image: url(../img/footer-img-desktop.jpg);
     background-size: cover;
   }
   .hero h2 {
